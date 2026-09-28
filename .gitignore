@@ -52,13 +52,18 @@ Thumbs.db
 .idea/
 
 # Large binary / media assets (too large for HTTP push — store locally or use Git LFS)
-*.jpg
-*.jpeg
-*.JPG
-*.JPEG
+# Only exclude the truly large files; required UI images must be committed
+frontend/public/hero-mine.jpg
 frontend/public/hero-mine.png
 frontend/public/mining-panorama-1.png
 frontend/public/mining-panorama-2.png
+frontend/public/reference_full_preview.jpg
+frontend/public/slice_1_header_hero.jpg
+frontend/public/slice_2_governance_hub.jpg
+frontend/public/slice_3_operational_arch.jpg
+frontend/public/slice_4_multilevel_gov.jpg
+frontend/public/slice_5_roles_footer.jpg
+app/static/hero-mine.jpg
 app/static/hero-mine.png
 app/static/mining-panorama-1.png
 app/static/mining-panorama-2.png
