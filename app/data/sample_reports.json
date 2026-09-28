@@ -1,0 +1,76 @@
+{
+  "_data_source": "SYNTHETIC -- constructed for demonstration only. Not derived from any real CIL inspection archive.",
+  "cases": [
+    {
+      "case_label": "genuine_repeat_inspection",
+      "mine_id": "MCL-TALCHER-07",
+      "previous": {
+        "report_id": "INS-2026-07-091",
+        "mine_id": "MCL-TALCHER-07",
+        "inspection_date": "2026-07-20",
+        "report_text": "Ventilation fan #3 checked - operational. No obstructions noted. Roof support intact.",
+        "methane_pct": 1.2,
+        "airflow_m3_min": 452.0
+      },
+      "current": {
+        "report_id": "INS-2026-08-014",
+        "mine_id": "MCL-TALCHER-07",
+        "inspection_date": "2026-08-20",
+        "report_text": "Ventilation fan #3 checked - operational. No obstructions noted. Roof support intact.",
+        "methane_pct": 1.4,
+        "airflow_m3_min": 447.0
+      },
+      "sensor_reading": {
+        "mine_id": "MCL-TALCHER-07",
+        "reading_date": "2026-08-20",
+        "methane_pct": 1.45,
+        "airflow_m3_min": 449.0
+      }
+    },
+    {
+      "case_label": "constructed_copy_paste_fraud",
+      "mine_id": "BCCL-JHARIA-14",
+      "previous": {
+        "report_id": "INS-2026-07-045",
+        "mine_id": "BCCL-JHARIA-14",
+        "inspection_date": "2026-07-18",
+        "report_text": "Ventilation fan #3 checked - operational. Methane levels normal. No violations observed.",
+        "methane_pct": 1.2,
+        "airflow_m3_min": 410.0
+      },
+      "current": {
+        "report_id": "INS-2026-08-052",
+        "mine_id": "BCCL-JHARIA-14",
+        "inspection_date": "2026-08-18",
+        "report_text": "Ventilation fan #3 checked - operational. Methane levels normal. No violations observed.",
+        "methane_pct": 1.2,
+        "airflow_m3_min": 410.0
+      },
+      "sensor_reading": {
+        "mine_id": "BCCL-JHARIA-14",
+        "reading_date": "2026-08-18",
+        "methane_pct": 2.8,
+        "airflow_m3_min": 320.0
+      }
+    },
+    {
+      "case_label": "genuine_first_inspection_no_history",
+      "mine_id": "SECL-KORBA-02",
+      "previous": null,
+      "current": {
+        "report_id": "INS-2026-08-001",
+        "mine_id": "SECL-KORBA-02",
+        "inspection_date": "2026-08-01",
+        "report_text": "Initial baseline inspection. All systems nominal.",
+        "methane_pct": 0.9,
+        "airflow_m3_min": 500.0
+      },
+      "sensor_reading": {
+        "mine_id": "SECL-KORBA-02",
+        "reading_date": "2026-08-01",
+        "methane_pct": 0.95,
+        "airflow_m3_min": 495.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Backups & Temporary
+*.backup*
+*.bak
+prithvi.db.backup-before-cleanup
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large binary / media assets (too large for HTTP push — store locally or use Git LFS)
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+frontend/public/hero-mine.png
+frontend/public/mining-panorama-1.png
+frontend/public/mining-panorama-2.png
+app/static/hero-mine.png
+app/static/mining-panorama-1.png
+app/static/mining-panorama-2.png
+
+# SQLite database files
+*.db
+prithvi.db
+
+# Uploaded inspection documents
+app/data/documents/
+
+# Scratch / dev-only files
+scratch/
